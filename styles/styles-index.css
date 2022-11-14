@@ -1,0 +1,385 @@
+:root{
+    --primary-color: #F188F2;
+}
+@font-face {
+
+    font-family: Monsterrat-Bold;
+    src: url(../fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family:  Montserrat;
+    src: url(../fonts//Montserrat/static/Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: Monstserrat-Medium;
+    src: url(../fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+    font-family: Monstserrat-SemiB;
+    src: url(../fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+section{
+    margin: 0;
+}
+.semib{
+    font-family: Monstserrat-SemiB;
+}
+.bold{
+    font-family: Monsterrat-Bold;
+}
+.regular{
+    font-family:  Montserrat;
+}
+.medium{
+    font-family: Monstserrat-Medium;
+}
+* { 
+    font-family: Montserrat;
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+   
+}
+#heading {
+    margin: 32px 30px;
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+.flex{
+    display: flex;
+}
+.margin-left{
+    margin-left: 50px;
+}
+.center2{
+    margin: 0 auto;
+}
+#heading1 , #heading2{
+    align-items: center ;
+}
+.center{
+    margin: auto 0;
+}
+#logo{
+    width: 86px;
+    height: 49px;
+}
+
+.color-white{
+    color: white;
+}
+.color-black{
+    color: black;
+}
+.btn_cat{
+    margin-left: 40px;
+    width: 154px;
+    height: 49px;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+.btn_cat:hover{
+    background-color: #C949CA;
+}
+.search_container {
+    margin-left: 16px;
+    position: relative;
+    min-width: 443px;
+  }
+#search-input{
+    border: 2px solid grey;
+    width: 100%;
+    border-radius: 9px;
+    background-color: #f5f5f5;
+    height: 47px;
+}
+.input {
+    padding: 2px 23px 2px 40px;
+    outline: 0;
+  }
+.search-icon {
+    position: absolute;
+    top: 20px;
+    left: 18px;
+    width: 10px;
+  }
+.nav_links_container{
+    margin-left: 60px;
+}
+.list{
+    list-style: none;
+    display: inline-flex;
+   
+}
+.nav_links, #btn_cart, .h2-con{
+    margin-left: 40px;
+}
+.nav_links, .nav_link{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-family: Monstserrat-Medium;
+    font-size: 16px;
+}
+#btn_cart{
+    height: 30px;
+    width: auto ;
+}
+#heading2{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  margin-top: 29px;
+}
+#number{
+    margin-left: 139px;
+    font-size: 15px
+}
+.icon_size{
+    height: 30px;
+    width: auto;
+}
+#heading2 a{
+    font-size: 18px;
+}
+#h2-icon{
+   margin-left: 25px;
+}
+#inst{
+    margin-left: 15px;
+}
+
+.p1{
+    font-size: 12px;
+}
+.p2{
+    font-size: 14px;
+    
+}
+#banner{
+    background-image: url(../img/baner-background.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    margin-top: 30px;
+
+}
+.banner-h1{
+    font-size: 80px;
+    padding-top: 150px;
+}
+.banner-h2{
+    font-size: 63px;
+}
+.banner-button{
+    font-size: 25px;
+    border-radius: 13px;
+    
+}
+#banner-button1, #banner-button2{
+    width: 241px;
+    height: 82px;
+}
+#banner-button1{
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+.border-button{
+    border: 2px solid white ;
+    background-color: transparent;  
+}
+#banner-button2{
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+
+
+#products{
+    margin-top: 30px;
+    padding:  0 auto;
+    width: 1378px;
+    
+}
+.h{
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 318px 318px 318px 318px;
+    column-gap: 30px;
+    row-gap: 20px;
+    
+}
+.grid-item, .discount-container{
+    text-align: center;
+}
+
+#h-container{
+   margin-top: 60px;
+}   
+.arrow-button{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-left: 20px;
+   
+}
+.inline{
+    display: inline;
+    vertical-align: top;
+    line-height: 28px;
+}
+.discounts-grid, .item-price-container, .h{
+   margin-top: 20px;
+}
+
+.discounts-item-img{
+    border-radius: 21px;
+}
+.item-price-container{
+    justify-content: space-around;
+    margin-bottom: 13px;
+}
+.price{
+    font-size: 30px;
+    
+}
+.discount-h22{
+    color: #FF32A1;
+}
+.discount-h2{
+    text-decoration: line-through;
+    color: #8B8B8B;
+}
+.discount-h2, .discount-h22{
+    font-size: 20px;
+}
+.discount-p{
+    text-align: left;
+    margin-left: 32.5px;
+}
+#discount-banner{
+    background-image: url(../img/banner-background.png);
+    width: 1440px;
+    height: 600px;
+    margin: 0 auto;
+}
+#discount-banner-con{
+    width: 575px;
+    height: 159px;
+}
+#discount-banner-h1, #discount-banner-h2 {
+    text-align: left;
+    margin-left: 800px;
+    
+}
+
+#discount-banner-h1{
+    font-size: 90px;
+    line-height: 0;
+}
+#discount-banner-h2{
+    font-size: 60px;
+    margin-top: 40px;
+}
+#discount-input{
+    width: 473px;
+    margin-top: 46px;
+    font-size: 18px;
+    font-family: Monstserrat-SemiB;
+}
+#discount-input, #discount-button{
+    height: 75px;
+    margin-left: 800px;
+    border-radius: 25px;
+}
+#discount-button{
+    margin-top: 43px;
+    width: 536px;
+   
+
+
+}
+
+#works-grid{
+    column-gap: 115px;
+    margin-top: 21px;
+}
+.footer-con{
+    justify-content: space-between;
+    width: 1284px;
+    margin-top: 150px;
+    padding-bottom: 66px;
+}
+#number-f{
+    font-size: 70px;
+    
+}
+#adress, #adres {
+    font-size: 40px;
+}
+#number-f, #adress, #krug, #h2-con, .footer-icon{
+    margin-top: 25px;
+}
+
+#krug{
+    font-size: 25px;
+}
+.footer-icon{
+    width: 50px;
+    height: 50px;
+}
+
+
+
+
+/* #baner{
+    background-image: url(../img/banner-background.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 1440px;
+    height: 600px;
+    margin-top: 30px;
+
+}
+.banner-discount-phone{
+    border: none;
+    background-color: white;
+    width: 473px;   
+}
+.baner-h1, .baner-h2{
+    margin-left: 963px;
+}
+.baner-h1{
+    font-size: 90px;
+}
+.baner-h2{
+    font-size: 50px;
+}
+.banner-d-container{
+    width: 517px;
+    height: 159px;
+} */
+
+    
+/* #search_form{
+    width: 443px;
+    height: 49px;
+    border:2px solid #A9A9A9;
+    border-radius: 9px;    
+}
+.fa-search{
+    margin-left: 18px;
+}
+#search{
+  margin-top: 15px;
+  height: 100%;
+
+} */
